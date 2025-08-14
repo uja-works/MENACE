@@ -107,12 +107,12 @@ if __name__ == "__main__":
         total += len(boxes)
     out_lines.append(f"Total canonical boxes: {total}\n")
 
-    with open('/home/uwe/labels.txt', 'w', encoding='utf-8') as f:
+    with open('labels.txt', 'w', encoding='utf-8') as f:
         f.write("\n".join(out_lines))
-    print(f"Wrote /home/uwe/labels.txt ({total} boxes)")
+    print(f"Wrote labels.txt ({total} boxes)")
 
     # build labels.tex (paged, fits A4 columns)
-    tex_path = '/home/uwe/labels.tex'
+    tex_path = 'labels.tex'
     cols = 6
     # rows_per_page / per_page will be computed later once box_h_cm is known
     rows_per_page = None
