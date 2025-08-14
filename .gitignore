@@ -16,7 +16,7 @@
 *.ind
 
 # Generated documents / intermediate files
-*.pdf
+#*.pdf
 *.dvi
 *.ps
 
