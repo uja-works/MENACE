@@ -1,0 +1,40 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.idx
+*.ilg
+*.ind
+
+# Generated documents / intermediate files
+*.pdf
+*.dvi
+*.ps
+
+# latexmk / texshop / editors
+*.auxlock
+*.synctex(busy)
+*.latexmain
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Project-specific generated files (change if you want to track
